@@ -1,0 +1,481 @@
+body {
+    margin: 0; 
+    background-color: #FFFFFF; 
+}
+
+h1, h2, h3, p { font-weight: 400 }
+
+h1, h2, h3 { font-family: "didot"; }
+
+h1 {
+    font-size: 70px;
+    text-align: left;
+    padding-left: 35px;
+    margin-top: 0px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 45px;
+    padding-top: 50px;
+    font-weight: 550;
+    color: #766d61;
+}
+
+
+h3 {
+    text-align: center;
+    color: #8A745F;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+p { 
+    font-size: 20px;
+    font-family: "baskerville";
+    line-height: 2;
+}
+
+.background-forside { 
+    height: 100vh;
+    background-image: url(Forside.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.forside-tekst {
+    padding-right: 100px; 
+    padding-left: 35px; 
+    color: #ffffff;
+    line-height: 1.5;
+    margin-top: -15px;
+}
+
+.box-forside {
+    width: 55%;
+    background-color: #989083;
+    height: 40%;
+    position: absolute;
+    padding-top: 100px;
+    margin-top: 180px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    top: 0;
+    position: sticky;
+    z-index: 100;
+
+  }
+  
+  nav ul {
+    background-color: #FFFFFF;
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  nav li {
+    
+    float: right;
+  }
+  
+  nav li a {
+    display: block;
+    padding: 25px 60px;
+    text-decoration: none;
+    color: #1C1C1C;
+    font-family: "baskerville";
+    font-size: 15px;
+  }
+
+  .logo {
+    float:left;
+  }
+
+  nav li b {
+    display: block;
+    padding: 15px 45px;
+    color: #1C1C1C;
+    font-family: "didot";
+    font-size: 25px;
+    font-weight: 400
+  }
+  
+  nav li a:hover {
+    background-color: #E0D2C1;
+    color: #1C1C1C;
+  }
+
+.left-sektion-mig {
+    text-align: left;
+    text-align-last: left;
+    padding-left: 70px;
+    color: #000000;
+}
+
+.right-sektion-mig {
+    text-align: right;
+    text-align-last: right; 
+    padding-right: 70px;
+    color: #000000;
+}
+
+.box-ommig {
+    width: 100%;
+    height: 150px;
+    background-color: #EBEAE4;
+    box-shadow: 0 2px 4px rgba(0, 0.2, 0, 0.2);
+    border: 3px solid #9A9081;
+}
+
+.box-forventninger {
+    width: 100%;
+    height: 150px;
+    background-color: #EBEAE4;
+    margin-top: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0.2, 0, 0.2);
+    border: 3px solid #9A9081;
+}
+
+.mig-overskrift {
+    text-align: center;
+    padding-right: 360px;
+    margin-top: 0px;
+    padding-bottom: 50px;
+    font-size: 35px;
+}
+
+.forventning-overskrift {
+    text-align: center;
+    padding-left: 390px;
+    margin-top: -30px;
+    padding-bottom: 55px;
+    font-size: 35px;
+}
+
+#mig1 {
+    width: 400px;
+    height: 400px;
+    padding-left: 0px;
+    }
+
+#mig2 {
+width: 400px;
+height: 400px; 
+padding-right: -200px;
+padding-top: 180px; 
+}
+
+
+.info-box1 {
+    display: flex;
+    float: right;
+    margin-top: -150px;
+}
+
+.info-box2 {
+    display: flex;
+    float: left;
+    margin-top: -100px;
+}
+
+.column1 {
+    width: auto;
+}
+
+.column2 {
+    width: auto;
+}
+
+.column3 {
+    width: auto;
+    padding-top: 130px;
+}
+
+.column4 {
+    width: auto;
+    padding-right: -100px;
+}
+
+.column5 {
+    justify-content: center;
+    padding-top: 480px;
+}
+
+.portfolie {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.wall1 {
+    height: 1400px;
+    background-color: #E0D2C1;
+    border: 3px solid #9A9081;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+}
+
+.portfolie-billeder1 {
+    justify-content: space-between;  
+    margin-bottom: 20px;
+}
+
+.portfolie-billeder2 {
+    display: flex;
+    justify-content: space-between;  
+}
+
+.portfolie-billeder1 img {
+    margin-bottom: 10px;
+    width: 500px;
+    height: 500px;
+    border: 3px solid #9A9081;
+    margin-right: 25px;
+}
+.portfolie-billeder1 img last-child {
+    margin-right: 0;
+}
+
+.portfolie-billeder2 img {
+    margin-bottom: 10px;
+    width: 500px;
+    height: 500px;
+    border: 3px solid #9A9081;
+    margin-right: 25px;
+}
+.portfolie-billeder2 img last-child {
+    margin-right: 0;
+}
+
+
+.animation {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 10px;
+    border: 3px solid #9A9081;
+    background-color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+    margin-right: 30px;
+
+
+  }
+
+
+.girl {
+  width: 400px;
+  height: 500px;
+  background: url(girl.png) 0 0 no-repeat;
+  animation: play 1s steps(4) infinite;
+  z-index: 2;
+  }
+
+  @keyframes play {
+    0%{background-position: 0px;}
+    100%{background-position: -2000px;}
+}
+
+.prototyper {
+    padding-top: 150px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center; 
+    height: 90vh; 
+    margin-top: 100px;
+  }
+
+
+.box4 {
+    width: 270px;
+    height: 530px;
+    border: 5px solid #9A9081;
+    margin: 0 30px;
+}
+
+.wall2 {
+    width: 100%;
+    height: 150px;
+    background-color: #E0D2C1;
+    margin-top: 900px;
+    border: 3px solid #9A9081;
+}
+
+.kompetancer {
+    color: #766d61;
+    padding-top: -5px;
+}
+
+.kompetance-billeder {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 200px; 
+    margin: 0 auto;
+} 
+
+.kompetance-billeder img {
+    width: 250px;
+    height: 250px;
+    padding: 80px;
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+
+  .image-wrapper {
+    text-align: center;
+}
+
+.image-wrapper p {
+    padding: 60px;
+    margin-top: -100px;
+    color: #604A37;
+}
+
+.wall3 {
+    height: 950px;
+    background-color: #EBEAE4;
+    margin-top: 700px;
+    border: 3px solid #989083;
+
+}
+
+.kontakt {
+    color: #000000;
+    padding-top: 90px;
+    margin-bottom: 100px;
+}
+
+.kontakt-boks {
+    background-color: #EBEAE4;
+    border: 1.5px solid #1C1C1C;
+    padding: 80px;
+    max-width: 750px;
+    display: grid;
+    margin-left: 250px;
+  }
+  
+.kontakt-boks .input-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+.kontakt-boks .input-container label {
+    flex: 1;
+  }
+  
+.input-container input,
+.input-container textarea {
+    flex: 2;
+    padding: 10px;
+    border: 1.5px solid #1C1C1C;  
+    background-color: #EBEAE4;
+    margin-right: 50px;
+    font-family: baskerville;
+    font-size: 16px;
+}
+  
+.kontakt-boks button {
+    color: #1c1c1c;
+    background-color: #EBEAE4;
+    padding: 20px 90px;
+    border: 1.5px solid #1C1C1C;
+    margin-top: 20px;
+    font-family: "baskerville";
+    font-size: 16px;
+    margin-left: 445px;
+}
+
+  
+.kontakt-boks button:hover {
+    background-color: #ffffff;
+  }
+
+.footer {
+    height: 220px;
+    background-color: #989083;
+    box-shadow: 0 2px 4px rgba(0.2, 0, 0, 0);
+    width: auto;
+    display: flex;
+}
+
+.besøg {
+    flex: 1; 
+    padding-left: 70px;
+}
+
+.besøg-tekst {
+    font-size: 35px;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+.besøg-brødtekst {
+    color: #FFFFFF;
+    margin-top: 100px; 
+    margin-bottom: -100px;
+}
+
+.kontaktinfo {
+    flex: 1; 
+}
+
+.kontaktinfo-tekst {
+    font-size: 35px;
+    padding-left: 55px;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+.kontaktinfo-brødtekst1 {
+    color: #FFFFFF;
+    display: flex;
+    margin-top: 100px; 
+    margin-bottom: -100px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.kontaktinfo-brødtekst2 {
+    color: #FFFFFF;
+    display: flex;
+    margin-top: 100px; 
+    margin-bottom: -100px;
+    padding-left: 53px;
+    text-align: center;
+}
+
+.SoMe {
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 50px;
+}
+
+.SoMe img {
+    margin-top: 115px;
+    height: auto;
+    margin-right: 10px; 
+    align-items: right;
+}
+
+.SoMe-tekst {
+    font-size: 35px;
+    padding-right: 18px;
+    color: #FFFFFF;
+    position: absolute;
+}
